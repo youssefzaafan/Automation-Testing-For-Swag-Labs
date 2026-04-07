@@ -1,0 +1,23 @@
+[DEBUG] - 2026-04-06 22:57:20 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sky\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - 2026-04-06 22:57:21 [main] [com.swaglabs.utils.LogsUtil] - Test Execution started
+[INFO] - 2026-04-06 22:57:21 [main] [com.swaglabs.utils.LogsUtil] - Loading Properites File Data
+[INFO] - 2026-04-06 22:57:22 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sky\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - 2026-04-06 22:57:27 [main] [com.swaglabs.utils.LogsUtil] - Navigating to URL: https://www.saucedemo.com
+[DEBUG] - 2026-04-06 22:57:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: user-name 
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: user-name
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: user-name
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Sent data: standard_user to element with locator:By.id: user-name 
+[DEBUG] - 2026-04-06 22:57:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: password 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: password
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: password
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Sent data: secret_sauce to element with locator:By.id: password 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: login-button 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Getting current URLhttps://www.saucedemo.com/inventory.html

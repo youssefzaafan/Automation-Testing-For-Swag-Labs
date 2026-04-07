@@ -1,0 +1,117 @@
+[DEBUG] - 2026-04-06 22:57:20 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Sky\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - 2026-04-06 22:57:21 [main] [com.swaglabs.utils.LogsUtil] - Test Execution started
+[INFO] - 2026-04-06 22:57:21 [main] [com.swaglabs.utils.LogsUtil] - Loading Properites File Data
+[INFO] - 2026-04-06 22:57:22 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Sky\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - 2026-04-06 22:57:27 [main] [com.swaglabs.utils.LogsUtil] - Navigating to URL: https://www.saucedemo.com
+[DEBUG] - 2026-04-06 22:57:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['username']
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: user-name 
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: user-name
+[INFO] - 2026-04-06 22:57:28 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: user-name
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Sent data: standard_user to element with locator:By.id: user-name 
+[DEBUG] - 2026-04-06 22:57:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['password']
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: password 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: password
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: password
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Sent data: secret_sauce to element with locator:By.id: password 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: login-button 
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.id: login-button
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Getting current URLhttps://www.saucedemo.com/inventory.html
+[INFO] - 2026-04-06 22:57:29 [main] [com.swaglabs.utils.LogsUtil] - Logs attached to Allure report
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Test passed: validLoginTest
+[DEBUG] - 2026-04-06 22:57:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item2']['name']
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Clicking on product:Sauce Labs Bike Light 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1] 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[DEBUG] - 2026-04-06 22:57:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item2']['name']
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Clicking on product:Sauce Labs Bike Light 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1] 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.xpath: //div[text()='Sauce Labs Bike Light']/following::button[1]
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Actual value:Remove 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Product added to cart successfully:Sauce Labs Bike Light 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Logs attached to Allure report
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Test passed: addingProductToCart
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.className: shopping_cart_link
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.className: shopping_cart_link 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.className: shopping_cart_link
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.className: shopping_cart_link
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.className: shopping_cart_link
+[DEBUG] - 2026-04-06 22:57:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item2']['name']
+[DEBUG] - 2026-04-06 22:57:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item2']['price']
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.className: inventory_item_name 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.className: inventory_item_name
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.className: inventory_item_name
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Product name retrieved: 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.className: inventory_item_price 
+[INFO] - 2026-04-06 22:57:30 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.className: inventory_item_price
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.className: inventory_item_price
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Product price retrieved: 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Validating product details - Expected Name: Sauce Labs Bike Light, Expected Price: $9.99
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Actual Name: Sauce Labs Bike Light, Actual Price: $9.99
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Product details validation completed
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Logs attached to Allure report
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Test passed: checkOutProduct
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.id: checkout
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: checkout 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: checkout
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: checkout
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.id: checkout
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Clicked checkout button
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['firstName']
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['lastName']
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['postalCode']
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: first-name 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: first-name
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: first-name
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Sent data: Youssef to element with locator:By.id: first-name 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: last-name 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: last-name
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: last-name
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Sent data: Zaafan to element with locator:By.id: last-name 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: postal-code 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: postal-code
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: postal-code
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Sent data: 12345 to element with locator:By.id: postal-code 
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['firstName']
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['lastName']
+[DEBUG] - 2026-04-06 22:57:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user-information']['postalCode']
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: first-name 
+[INFO] - 2026-04-06 22:57:31 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: first-name
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: first-name
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Getting text from input element with locator:By.id: first-name 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: last-name 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: last-name
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: last-name
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Getting text from input element with locator:By.id: last-name 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: postal-code 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: postal-code
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: postal-code
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Getting text from input element with locator:By.id: postal-code 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Logs attached to Allure report
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Test passed: fillInformationForm
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.id: continue
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: continue 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: continue
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: continue
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.id: continue
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be clickable: By.id: finish
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.id: finish 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.id: finish
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.id: finish
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Clicked on element with locator: By.id: finish
+[DEBUG] - 2026-04-06 22:57:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['confirmation-message']
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be visible: By.className: complete-header 
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Waiting for the element to be present:By.className: complete-header
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Scrolling to the element: By.className: complete-header
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Logs attached to Allure report
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Test passed: finishOrder
+[INFO] - 2026-04-06 22:57:32 [main] [com.swaglabs.utils.LogsUtil] - Closing the browser
+[INFO] - 2026-04-06 22:57:34 [main] [com.swaglabs.utils.LogsUtil] - Test Execution finished
