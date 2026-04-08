@@ -135,7 +135,7 @@ loginPage.login("standard_user", "secret_sauce")
 
 1. Clone the repository:
    ```
-   git clone <[your-repo-url](https://github.com/youssefzaafan/Automation-Testing-For-Swag-Labs.git)>
+   git clone https://github.com/youssefzaafan/Automation-Testing-For-Swag-Labs.git
    ```
 
 3. Install dependencies:
@@ -147,10 +147,10 @@ loginPage.login("standard_user", "secret_sauce")
    src/main/resources/web.properties
 ```
      Example:
-     ```
+     
          browser=chrome
          baseUrl=https://www.saucedemo.com/
-      ```
+      
 ---
 
 ## ▶️ Running Tests
