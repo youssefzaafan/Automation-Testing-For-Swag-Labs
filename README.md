@@ -80,24 +80,24 @@ loginPage.login("standard_user", "secret_sauce")
 
       - Log4j integration
       - Logs stored under:
-          ```
+          
           test-outputs/logs/
-          ```
+          
 🔹 Screenshots
 
     Captured automatically:
        - On success
        - On failure
     Stored under:
-    ```
+    
             test-outputs/screenshots/
-     ```
+     
 🔹 Test Data Management
 
       - External JSON file:
     
               test-data.json
-    ```
+    
 🔹 Configuration Management
 
     - web.properties → browser & base URL
@@ -197,4 +197,5 @@ mvn test
 ## 👨‍💻 Author
 
 Youssef Zaafan
+
 Software Testing Engineer
