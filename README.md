@@ -58,6 +58,7 @@ loginPage.login("standard_user", "secret_sauce")
 ---
 
 ## ⚙️ Key Features
+
 🔹 Cross Browser Support
       - Chrome
       - Firefox
